@@ -14,6 +14,21 @@
 		A6CB4EF91C063FC600F37DA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6CB4EF71C063FC600F37DA8 /* LaunchScreen.storyboard */; };
 		A6CB4F041C063FC600F37DA8 /* SwiftRSSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F031C063FC600F37DA8 /* SwiftRSSTests.swift */; };
 		A6CB4F0F1C063FC600F37DA8 /* SwiftRSSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F0E1C063FC600F37DA8 /* SwiftRSSUITests.swift */; };
+		A6CB4F241C06414200F37DA8 /* BWCRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F1E1C06414200F37DA8 /* BWCRUD.m */; };
+		A6CB4F251C06414200F37DA8 /* BWDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F201C06414200F37DA8 /* BWDB.m */; };
+		A6CB4F261C06414200F37DA8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F211C06414200F37DA8 /* Extensions.swift */; };
+		A6CB4F271C06414200F37DA8 /* RSSDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F231C06414200F37DA8 /* RSSDB.m */; };
+		A6CB4F311C0641BA00F37DA8 /* ChromeActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F291C0641BA00F37DA8 /* ChromeActivity.swift */; };
+		A6CB4F321C0641BA00F37DA8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F2A1C0641BA00F37DA8 /* DetailViewController.swift */; };
+		A6CB4F331C0641BA00F37DA8 /* FeedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F2B1C0641BA00F37DA8 /* FeedsViewController.swift */; };
+		A6CB4F341C0641BA00F37DA8 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F2C1C0641BA00F37DA8 /* ItemsViewController.swift */; };
+		A6CB4F351C0641BA00F37DA8 /* LoadItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F2D1C0641BA00F37DA8 /* LoadItems.swift */; };
+		A6CB4F361C0641BA00F37DA8 /* SafariActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F2E1C0641BA00F37DA8 /* SafariActivity.swift */; };
+		A6CB4F371C0641BA00F37DA8 /* SplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F2F1C0641BA00F37DA8 /* SplitViewController.swift */; };
+		A6CB4F381C0641BA00F37DA8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F301C0641BA00F37DA8 /* Utilities.swift */; };
+		A6CB4F3A1C06423900F37DA8 /* AddFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB4F391C06423900F37DA8 /* AddFeedViewController.swift */; };
+		A6CB4F3D1C06429400F37DA8 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A6CB4F3C1C06429400F37DA8 /* Settings.bundle */; };
+		A6CB4F3F1C06430700F37DA8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CB4F3E1C06430700F37DA8 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,25 @@
 		A6CB4F0A1C063FC600F37DA8 /* SwiftRSSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRSSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6CB4F0E1C063FC600F37DA8 /* SwiftRSSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRSSUITests.swift; sourceTree = "<group>"; };
 		A6CB4F101C063FC600F37DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6CB4F1C1C06414100F37DA8 /* SwiftRSS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftRSS-Bridging-Header.h"; sourceTree = "<group>"; };
+		A6CB4F1D1C06414200F37DA8 /* BWCRUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCRUD.h; sourceTree = "<group>"; };
+		A6CB4F1E1C06414200F37DA8 /* BWCRUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCRUD.m; sourceTree = "<group>"; };
+		A6CB4F1F1C06414200F37DA8 /* BWDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDB.h; sourceTree = "<group>"; };
+		A6CB4F201C06414200F37DA8 /* BWDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDB.m; sourceTree = "<group>"; };
+		A6CB4F211C06414200F37DA8 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A6CB4F221C06414200F37DA8 /* RSSDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSDB.h; sourceTree = "<group>"; };
+		A6CB4F231C06414200F37DA8 /* RSSDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSDB.m; sourceTree = "<group>"; };
+		A6CB4F291C0641BA00F37DA8 /* ChromeActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChromeActivity.swift; sourceTree = "<group>"; };
+		A6CB4F2A1C0641BA00F37DA8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A6CB4F2B1C0641BA00F37DA8 /* FeedsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedsViewController.swift; sourceTree = "<group>"; };
+		A6CB4F2C1C0641BA00F37DA8 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
+		A6CB4F2D1C0641BA00F37DA8 /* LoadItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadItems.swift; sourceTree = "<group>"; };
+		A6CB4F2E1C0641BA00F37DA8 /* SafariActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafariActivity.swift; sourceTree = "<group>"; };
+		A6CB4F2F1C0641BA00F37DA8 /* SplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitViewController.swift; sourceTree = "<group>"; };
+		A6CB4F301C0641BA00F37DA8 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A6CB4F391C06423900F37DA8 /* AddFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFeedViewController.swift; sourceTree = "<group>"; };
+		A6CB4F3C1C06429400F37DA8 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		A6CB4F3E1C06430700F37DA8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CB4F3F1C06430700F37DA8 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +132,19 @@
 		A6CB4EED1C063FC600F37DA8 /* SwiftRSS */ = {
 			isa = PBXGroup;
 			children = (
+				A6CB4F281C06414E00F37DA8 /* Extension */,
 				A6CB4EEE1C063FC600F37DA8 /* AppDelegate.swift */,
 				A6CB4EF01C063FC600F37DA8 /* ViewController.swift */,
-				A6CB4EF21C063FC600F37DA8 /* Main.storyboard */,
-				A6CB4EF51C063FC600F37DA8 /* Assets.xcassets */,
-				A6CB4EF71C063FC600F37DA8 /* LaunchScreen.storyboard */,
-				A6CB4EFA1C063FC600F37DA8 /* Info.plist */,
+				A6CB4F291C0641BA00F37DA8 /* ChromeActivity.swift */,
+				A6CB4F2A1C0641BA00F37DA8 /* DetailViewController.swift */,
+				A6CB4F2B1C0641BA00F37DA8 /* FeedsViewController.swift */,
+				A6CB4F391C06423900F37DA8 /* AddFeedViewController.swift */,
+				A6CB4F2C1C0641BA00F37DA8 /* ItemsViewController.swift */,
+				A6CB4F2D1C0641BA00F37DA8 /* LoadItems.swift */,
+				A6CB4F2E1C0641BA00F37DA8 /* SafariActivity.swift */,
+				A6CB4F2F1C0641BA00F37DA8 /* SplitViewController.swift */,
+				A6CB4F301C0641BA00F37DA8 /* Utilities.swift */,
+				A6CB4F3B1C06426700F37DA8 /* Supporting Files */,
 			);
 			path = SwiftRSS;
 			sourceTree = "<group>";
@@ -123,6 +165,34 @@
 				A6CB4F101C063FC600F37DA8 /* Info.plist */,
 			);
 			path = SwiftRSSUITests;
+			sourceTree = "<group>";
+		};
+		A6CB4F281C06414E00F37DA8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB4F1D1C06414200F37DA8 /* BWCRUD.h */,
+				A6CB4F1E1C06414200F37DA8 /* BWCRUD.m */,
+				A6CB4F1F1C06414200F37DA8 /* BWDB.h */,
+				A6CB4F201C06414200F37DA8 /* BWDB.m */,
+				A6CB4F211C06414200F37DA8 /* Extensions.swift */,
+				A6CB4F221C06414200F37DA8 /* RSSDB.h */,
+				A6CB4F231C06414200F37DA8 /* RSSDB.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		A6CB4F3B1C06426700F37DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB4F3C1C06429400F37DA8 /* Settings.bundle */,
+				A6CB4EF21C063FC600F37DA8 /* Main.storyboard */,
+				A6CB4EF51C063FC600F37DA8 /* Assets.xcassets */,
+				A6CB4EF71C063FC600F37DA8 /* LaunchScreen.storyboard */,
+				A6CB4EFA1C063FC600F37DA8 /* Info.plist */,
+				A6CB4F3E1C06430700F37DA8 /* libsqlite3.tbd */,
+				A6CB4F1C1C06414100F37DA8 /* SwiftRSS-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +263,7 @@
 				TargetAttributes = {
 					A6CB4EEA1C063FC600F37DA8 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = V3QESDZJG8;
 					};
 					A6CB4EFE1C063FC600F37DA8 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -229,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CB4F3D1C06429400F37DA8 /* Settings.bundle in Resources */,
 				A6CB4EF91C063FC600F37DA8 /* LaunchScreen.storyboard in Resources */,
 				A6CB4EF61C063FC600F37DA8 /* Assets.xcassets in Resources */,
 				A6CB4EF41C063FC600F37DA8 /* Main.storyboard in Resources */,
@@ -256,8 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6CB4F271C06414200F37DA8 /* RSSDB.m in Sources */,
+				A6CB4F261C06414200F37DA8 /* Extensions.swift in Sources */,
+				A6CB4F381C0641BA00F37DA8 /* Utilities.swift in Sources */,
+				A6CB4F311C0641BA00F37DA8 /* ChromeActivity.swift in Sources */,
+				A6CB4F251C06414200F37DA8 /* BWDB.m in Sources */,
 				A6CB4EF11C063FC600F37DA8 /* ViewController.swift in Sources */,
+				A6CB4F341C0641BA00F37DA8 /* ItemsViewController.swift in Sources */,
+				A6CB4F241C06414200F37DA8 /* BWCRUD.m in Sources */,
+				A6CB4F351C0641BA00F37DA8 /* LoadItems.swift in Sources */,
+				A6CB4F331C0641BA00F37DA8 /* FeedsViewController.swift in Sources */,
+				A6CB4F371C0641BA00F37DA8 /* SplitViewController.swift in Sources */,
 				A6CB4EEF1C063FC600F37DA8 /* AppDelegate.swift in Sources */,
+				A6CB4F3A1C06423900F37DA8 /* AddFeedViewController.swift in Sources */,
+				A6CB4F361C0641BA00F37DA8 /* SafariActivity.swift in Sources */,
+				A6CB4F321C0641BA00F37DA8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +482,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.SwiftRSS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftRSS/SwiftRSS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -408,10 +497,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SwiftRSS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teklabsco.SwiftRSS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftRSS/SwiftRSS-Bridging-Header.h";
 			};
 			name = Release;
 		};
